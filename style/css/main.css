@@ -27,15 +27,6 @@ body {
   bottom: 10%;
   filter: drop-shadow(0px 0px 15px black);
 }
-.main-block {
-  display: block;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.85);
-  top: 50%;
-  width: 80%;
-  left: 10%;
-  height: 90%;
-}
 .nav-bar {
   display: block;
   background-color: #213881;
@@ -56,7 +47,7 @@ li.li-nav {
 }
 li.li-nav a {
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Rubik-Regular";
   margin-left: 100px;
   margin-right: 100px;
   font-size: 20px;
@@ -65,12 +56,56 @@ li.li-nav a {
   transition: .2s;
 }
 li.li-nav a:hover {
-  color: silver;
+  color: #C7C7C7;
+  text-shadow: 0px 0px 2px #C7C7C7;
   transition: .2s;
+}
+.header-text {
+  display: block;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+}
+.header-text span {
+  font-family: "Rubik-Bold";
+  font-size: 40px;
+  color: white;
+}
+#add-text {
+  font-family: "Rubik-Bold";
+  font-size: 18px;
+  color: white;
+}
+.main-block {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.85);
+  top: 50%;
+  width: 80%;
+  left: 10%;
+  height: 90%;
 }
 @font-face {
   font-family: "Roboto";
 	src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  font-family: "Rubik-Regular";
+	src: url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  font-family: "Rubik-Bold";
+	src: url("../assets/fonts/Rubik-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  font-family: "Rubik Mono One";
+	src: url("../assets/fonts/RubikMonoOne-Regular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }

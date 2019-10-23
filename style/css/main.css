@@ -6,32 +6,49 @@ body {
   background: url(../assets/images/background.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: bottom;
 }
 .header-block {
   display: block;
   position: absolute;
   background-color: #55B2F5;
-  width: 80%;
+  width: 60%;
   max-width: 100%;
   height: 110px;
-  left: 10%;
+  left: 20%;
   top: 5%;
 }
 .club-logo-block img{
   display: block;
   position: absolute;
-  width: 6.5%;
+  width: 8.5%;
   left: 5%;
   bottom: 10%;
   filter: drop-shadow(0px 0px 15px black);
+}
+.header-text {
+  display: block;
+  position: absolute;
+  left: 17%;
+  top: 25%;
+}
+.header-text span {
+  font-family: "Rubik-Bold";
+  text-shadow: 0px 0px 4px black;
+  font-size: 30px;
+  color: white;
+}
+#add-text {
+  font-family: "Rubik-Bold";
+  font-size: 15px;
+  color: white;
 }
 .nav-bar {
   display: block;
   background-color: #213881;
   position: absolute;
-  width: 80%;
-  left: 10%;
+  width: 60%;
+  left: 20%;
   max-width: 100%;
   top: 16.3%;
   border-top: 1px solid white;
@@ -48,9 +65,9 @@ li.li-nav {
 li.li-nav a {
   text-decoration: none;
   font-family: "Rubik-Regular";
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 15px;
   color: white;
   text-shadow: 0px 0px 1px white;
   transition: .2s;
@@ -59,23 +76,6 @@ li.li-nav a:hover {
   color: #C7C7C7;
   text-shadow: 0px 0px 2px #C7C7C7;
   transition: .2s;
-}
-.header-text {
-  display: block;
-  position: absolute;
-  left: 15%;
-  top: 20%;
-}
-.header-text span {
-  font-family: "Rubik-Bold";
-  text-shadow: 0px 0px 4px black;
-  font-size: 40px;
-  color: white;
-}
-#add-text {
-  font-family: "Rubik-Bold";
-  font-size: 18px;
-  color: white;
 }
 @font-face {
   font-family: "Roboto";

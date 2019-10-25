@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url(../assets/images/background.jpg);
+	background-attachment: fixed;
+  background-size: cover;
+}
+.header-block {
+  display: block;
+  position: absolute;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
+  width: 60%;
+  max-width: 100%;
+  height: 110px;
+  left: 20%;
+  top: 5%;
+  box-shadow: 0px 0px 10px 1px black inset;
+}
+.club-logo-block img{
+  display: block;
+  position: absolute;
+  width: 8.5%;
+  left: 5%;
+  bottom: 10%;
+  filter: drop-shadow(0px 0px 15px black);
+}
+.header-text {
+  display: block;
+  position: absolute;
+  left: 17%;
+  top: 25%;
+}
+.header-text span {
+  font-family: "Rubik-Bold";
+  text-shadow: 0px 0px 4px black;
+  font-size: 30px;
+  color: white;
+}
+#add-text {
+  font-family: "Rubik-Bold";
+  font-size: 15px;
+  color: white;
+}
+.nav-bar {
+  display: block;
+  background-color: #213881;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  max-width: 100%;
+  top: 16.3%;
+  border-top: 1px solid white;
+}
+ul.ul-nav {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+li.li-nav {
+  padding: 10px;
+  list-style: none;
+}
+li.li-nav a {
+  text-decoration: none;
+  font-family: "Rubik-Regular";
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 15px;
+  color: white;
+  text-shadow: 0px 0px 1px white;
+  transition: .2s;
+}
+li.li-nav a:hover {
+  color: #C7C7C7;
+  text-shadow: 0px 0px 2px #C7C7C7;
+  transition: .2s;
+}
+@font-face {
+  font-family: "Roboto";
+	src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  font-family: "Rubik-Regular";
+	src: url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  font-family: "Rubik-Bold";
+	src: url("../assets/fonts/Rubik-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  font-family: "Rubik Mono One";
+	src: url("../assets/fonts/RubikMonoOne-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

@@ -16,6 +16,7 @@ body {
   height: 110px;
   left: 20%;
   top: 5%;
+  box-shadow: 0px 0px 10px 1px black inset;
 }
 .club-logo-block img{
   display: block;
@@ -80,49 +81,101 @@ li.li-nav a:hover {
   display: block;
   position: absolute;
   background-color: rgba(0, 0, 0, 1);
-  border: 1px solid white;
-  filter: drop-shadow(0px 0px 5px white);
+  border: 5px solid white;
+  filter: drop-shadow(0px 0px 2px white);
   width: 307px;
   color: white;
   top: 25%;
   left: 20%;
+  height: 250px;
+}
+.week-match-block span {
+  display: block;
+  position: absolute;
+}
+.week-match-text {
+  display: block;
+  position: absolute;
+  width: 307px;
+  height: 15%;
+  top: 85%;
+  background-color: #207DC0;
+}
+.week-match-block img {
+  width: 307px;
   height: 250px;
 }
 .best-players-block {
   display: block;
   position: absolute;
   background-color: rgba(0, 0, 0, 1);
-  border: 1px solid white;
-  filter: drop-shadow(0px 0px 5px white);
+  border: 5px solid white;
+  filter: drop-shadow(0px 0px 2px white);
   width: 307px;
   color: white;
   top: 25%;
-  left: 40.4%;
+  left: 40.2%;
   height: 250px;
 }
-.last-matches-block {
+.best-players-block span {
+  display: block;
+  position: absolute;
+}
+.best-players-text {
+  display: block;
+  position: absolute;
+  width: 307px;
+  height: 15%;
+  top: 85%;
+  background-color: #207DC0;
+}
+.last-new-block {
   display: block;
   position: absolute;
   background-color: rgba(0, 0, 0, 1);
-  border: 1px solid white;
-  filter: drop-shadow(0px 0px 5px white);
+  border: 5px solid white;
+  filter: drop-shadow(0px 0px 2px white);
   width: 307px;
   color: white;
   top: 25%;
   right: 20%;
   height: 250px;
 }
-.last-new-block {
+.last-new-block span {
+  display: block;
+  position: absolute;
+}
+.last-new-text {
+  display: block;
+  position: absolute;
+  width: 307px;
+  height: 15%;
+  top: 85%;
+  background-color: #207DC0;
+}
+.last-matches-block {
   display: block;
   position: absolute;
   background-color: rgba(0, 0, 0, 1);
-  border: 1px solid white;
-  filter: drop-shadow(0px 0px 5px white);
-  width: 967px;
+  border: 5px solid white;
+  filter: drop-shadow(0px 0px 2px white);
+  width: 960px;
   color: white;
   top: 52.6%;
   left: 20%;
   height: 300px;
+}
+.last-matches-block span {
+  display: block;
+  position: absolute;
+}
+.last-matches-text  {
+  display: block;
+  position: absolute;
+  width: 960px;
+  height: 15%;
+  top: 85%;
+  background-color: #207DC0;
 }
 .footer-block {
   display: block;
@@ -133,6 +186,36 @@ li.li-nav a:hover {
   height: 12%;
   top: 88%;
   background-color: #55B2F5;
+}
+#footer-links-1 {
+  display: block;
+  position: absolute;
+  left: 3%;
+  top: 15%;
+}
+#footer-links-1 a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Rubik-Regular";
+}
+#footer-links-1 a:hover {
+  text-decoration: underline;
+}
+#footer-links-2 {
+  display: block;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+#footer-links-2 a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Rubik-Regular";
+}
+#footer-links-2 a:hover {
+  text-decoration: underline;
 }
 .footer-last-block {
   display: block;
@@ -146,9 +229,10 @@ li.li-nav a:hover {
 .footer-last-block span {
   display: block;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 1.5%;
-  color: white;
+  font-size: 12px;
+  color: #1D5C7E;
   font-family: "Rubik-Regular";
 }
 @font-face {

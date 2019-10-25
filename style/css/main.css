@@ -10,7 +10,7 @@ body {
 .header-block {
   display: block;
   position: absolute;
-  background-color: #55B2F5;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
   width: 60%;
   max-width: 100%;
   height: 110px;
@@ -89,9 +89,19 @@ li.li-nav a:hover {
   left: 20%;
   height: 250px;
 }
-.week-match-block span {
+.week-match-block span a {
   display: block;
   position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik-Regular";
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.week-match-block a:hover {
+  text-decoration: underline;
 }
 .week-match-text {
   display: block;
@@ -99,7 +109,7 @@ li.li-nav a:hover {
   width: 307px;
   height: 15%;
   top: 85%;
-  background-color: #207DC0;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
 }
 .week-match-block img {
   width: 307px;
@@ -117,9 +127,20 @@ li.li-nav a:hover {
   left: 40.2%;
   height: 250px;
 }
-.best-players-block span {
+.best-players-block span a {
   display: block;
   position: absolute;
+  left: 55%;
+  top: 45%;
+  width: 200px;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik-Regular";
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.best-players-block a:hover {
+  text-decoration: underline;
 }
 .best-players-text {
   display: block;
@@ -127,7 +148,7 @@ li.li-nav a:hover {
   width: 307px;
   height: 15%;
   top: 85%;
-  background-color: #207DC0;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
 }
 .last-new-block {
   display: block;
@@ -141,9 +162,19 @@ li.li-nav a:hover {
   right: 20%;
   height: 250px;
 }
-.last-new-block span {
+.last-new-block span a {
   display: block;
   position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik-Regular";
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.last-new-block a:hover {
+  text-decoration: underline;
 }
 .last-new-text {
   display: block;
@@ -151,7 +182,7 @@ li.li-nav a:hover {
   width: 307px;
   height: 15%;
   top: 85%;
-  background-color: #207DC0;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
 }
 .last-matches-block {
   display: block;
@@ -165,9 +196,19 @@ li.li-nav a:hover {
   left: 20%;
   height: 300px;
 }
-.last-matches-block span {
+.last-matches-block span a {
   display: block;
   position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik-Regular";
+  text-decoration: none;
+  color: white;
+  font-size: 18px; 
+}
+.last-matches-block a:hover {
+  text-decoration: underline;
 }
 .last-matches-text  {
   display: block;
@@ -175,7 +216,7 @@ li.li-nav a:hover {
   width: 960px;
   height: 15%;
   top: 85%;
-  background-color: #207DC0;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
 }
 .footer-block {
   display: block;
@@ -185,7 +226,7 @@ li.li-nav a:hover {
   max-width: 100%;
   height: 12%;
   top: 88%;
-  background-color: #55B2F5;
+  background: linear-gradient(45deg, #0E6BAE, #55B2F5);
 }
 #footer-links-1 {
   display: block;

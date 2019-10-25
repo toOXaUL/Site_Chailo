@@ -77,6 +77,10 @@ li.li-nav a:hover {
   text-shadow: 0px 0px 2px #C7C7C7;
   transition: .2s;
 }
+.week-href a {
+  text-decoration: none;
+  color: white;
+}
 .week-match-block {
   display: block;
   position: absolute;
@@ -89,19 +93,13 @@ li.li-nav a:hover {
   left: 20%;
   height: 250px;
 }
-.week-match-block span a {
+.week-match-block span {
   display: block;
   position: absolute;
   left: 50%;
   top: 45%;
   transform: translate(-50%, -50%);
   font-family: "Rubik-Regular";
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.week-match-block a:hover {
-  text-decoration: underline;
 }
 .week-match-text {
   display: block;
@@ -115,6 +113,10 @@ li.li-nav a:hover {
   width: 307px;
   height: 250px;
 }
+.best-href a {
+  color: white;
+  text-decoration: none;
+}
 .best-players-block {
   display: block;
   position: absolute;
@@ -127,7 +129,7 @@ li.li-nav a:hover {
   left: 40.2%;
   height: 250px;
 }
-.best-players-block span a {
+.best-players-block span {
   display: block;
   position: absolute;
   left: 55%;
@@ -135,12 +137,6 @@ li.li-nav a:hover {
   width: 200px;
   transform: translate(-50%, -50%);
   font-family: "Rubik-Regular";
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.best-players-block a:hover {
-  text-decoration: underline;
 }
 .best-players-text {
   display: block;
@@ -149,6 +145,10 @@ li.li-nav a:hover {
   height: 15%;
   top: 85%;
   background: linear-gradient(90deg, #0E6BAE, #55B2F5);
+}
+.last-new-href a {
+  color: white;
+  text-decoration: underline;
 }
 .last-new-block {
   display: block;
@@ -162,19 +162,13 @@ li.li-nav a:hover {
   right: 20%;
   height: 250px;
 }
-.last-new-block span a {
+.last-new-block span {
   display: block;
   position: absolute;
   left: 50%;
   top: 45%;
   transform: translate(-50%, -50%);
   font-family: "Rubik-Regular";
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.last-new-block a:hover {
-  text-decoration: underline;
 }
 .last-new-text {
   display: block;
@@ -183,6 +177,10 @@ li.li-nav a:hover {
   height: 15%;
   top: 85%;
   background: linear-gradient(90deg, #0E6BAE, #55B2F5);
+}
+.last-matches-href a {
+  color: white;
+  text-decoration: underline;
 }
 .last-matches-block {
   display: block;
@@ -196,19 +194,13 @@ li.li-nav a:hover {
   left: 20%;
   height: 300px;
 }
-.last-matches-block span a {
+.last-matches-block span {
   display: block;
   position: absolute;
   left: 50%;
   top: 45%;
   transform: translate(-50%, -50%);
   font-family: "Rubik-Regular";
-  text-decoration: none;
-  color: white;
-  font-size: 18px; 
-}
-.last-matches-block a:hover {
-  text-decoration: underline;
 }
 .last-matches-text  {
   display: block;

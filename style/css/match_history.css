@@ -135,7 +135,8 @@ body {
   position: absolute;
   background-color: rgba(0, 0, 0, 1);
   border: 5px solid white;
-  filter: drop-shadow(0px 0px 2px white);
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
   width: 307px;
   color: white;
   top: 85%;
@@ -155,39 +156,6 @@ body {
   display: block;
   position: absolute;
   width: 307px;
-  height: 15%;
-  top: 85%;
-  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
-}
-.last-matches-href a {
-  color: white;
-  text-decoration: underline;
-}
-.last-matches-block {
-  display: block;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 1);
-  border: 5px solid white;
-  filter: drop-shadow(0px 0px 2px white);
-  width: 960px;
-  color: white;
-  top: 100%;
-  left: 20%;
-  height: 300px;
-}
-.last-matches-block span {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 45%;
-  font-size: 18px;
-  transform: translate(-50%, -50%);
-  font-family: "Rubik-Regular";
-}
-.last-matches-text  {
-  display: block;
-  position: absolute;
-  width: 960px;
   height: 15%;
   top: 85%;
   background: linear-gradient(90deg, #0E6BAE, #55B2F5);

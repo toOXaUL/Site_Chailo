@@ -68,7 +68,7 @@ th {
 }
 td {
   padding: 10px;
-  width: 100px;
+  width: 170px;
   font-size: 14px;
 }
 tr:nth-child(odd) {
@@ -77,53 +77,57 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
   background: #F3F4F4;
 }
+.date-table-size {
+  width: 45px;
+}
+.name-table-size {
+  width: 90px;
+}
+.place-table-size {
+  width: 56px;
+}
 .june-matches-block {
   display: block;
   position: absolute;
   top: 25%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
 .may-matches-block {
   display: block;
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
 .april-matches-block {
   display: block;
   position: absolute;
-  top: 55%;
+  top: 500%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
 .march-matches-block {
   display: block;
   position: absolute;
-  top: 75%;
+  top: 500%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
 .february-matches-block {
   display: block;
   position: absolute;
-  top: 95%;
+  top: 500%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
@@ -133,7 +137,6 @@ tr:nth-child(even) {
   top: 120%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
@@ -143,7 +146,6 @@ tr:nth-child(even) {
   top: 135%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
@@ -153,7 +155,6 @@ tr:nth-child(even) {
   top: 150%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
@@ -163,7 +164,6 @@ tr:nth-child(even) {
   top: 170%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
@@ -173,7 +173,6 @@ tr:nth-child(even) {
   top: 190%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
@@ -183,7 +182,6 @@ tr:nth-child(even) {
   top: 210%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
@@ -193,7 +191,6 @@ tr:nth-child(even) {
   top: 230%;
   left: 20%;
   max-width: 100%;
-  height: 200px;
   background-color: white;
   padding: 20px;
 }
@@ -220,6 +217,64 @@ li.li-nav a:hover {
   color: #C7C7C7;
   text-shadow: 0px 0px 2px #C7C7C7;
   transition: .2s;
+}
+.footer-block {
+  display: block;
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  max-width: 100%;
+  height: 12%;
+  top: 270%;
+  background: linear-gradient(45deg, #0E6BAE, #55B2F5);
+}
+#footer-links-1 {
+  display: block;
+  position: absolute;
+  left: 3%;
+  top: 15%;
+}
+#footer-links-1 a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Rubik-Regular";
+}
+#footer-links-1 a:hover {
+  text-decoration: underline;
+}
+#footer-links-2 {
+  display: block;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+#footer-links-2 a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Rubik-Regular";
+}
+#footer-links-2 a:hover {
+  text-decoration: underline;
+}
+.footer-last-block {
+  display: block;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: 280%;
+  height: 3%;
+  background-color: #213881;
+}
+.footer-last-block span {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 1.5%;
+  font-size: 12px;
+  color: #1D5C7E;
+  font-family: "Rubik-Regular";
 }
 @font-face {
   font-family: "Roboto";

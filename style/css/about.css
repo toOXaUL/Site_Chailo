@@ -77,6 +77,92 @@ li.li-nav a:hover {
   text-shadow: 0px 0px 2px #C7C7C7;
   transition: .2s;
 }
+.about-block {
+  display: block;
+  position: absolute;
+  background-color: white;
+  color: #434650;
+  top: 25%;
+  left: 20%;
+  width: 60%;
+  height: 550px;
+  box-shadow: 0px 0px 15px 1px white,
+              0px 0px 15px 1px black;
+}
+.about-block span {
+  display: block;
+  position: absolute;
+  font-family: "Rubik-Regular";
+  font-size: 23px;
+  top: 3%;
+  left: 2%;
+}
+.about-block article {
+  display: block;
+  position: absolute;
+  font-family: "Rubik-Regular";
+  font-size: 20px;
+  margin: 20px;
+  top: 10%;
+}
+.footer-block {
+  display: block;
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  max-width: 100%;
+  height: 12%;
+  top: 88%;
+  background: linear-gradient(45deg, #0E6BAE, #55B2F5);
+}
+#footer-links-1 {
+  display: block;
+  position: absolute;
+  left: 3%;
+  top: 15%;
+}
+#footer-links-1 a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Rubik-Regular";
+}
+#footer-links-1 a:hover {
+  text-decoration: underline;
+}
+#footer-links-2 {
+  display: block;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+#footer-links-2 a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Rubik-Regular";
+}
+#footer-links-2 a:hover {
+  text-decoration: underline;
+}
+.footer-last-block {
+  display: block;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: 97%;
+  height: 3%;
+  background-color: #213881;
+}
+.footer-last-block span {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 1.5%;
+  font-size: 12px;
+  color: #1D5C7E;
+  font-family: "Rubik-Regular";
+}
 @font-face {
   font-family: "Roboto";
 	src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");

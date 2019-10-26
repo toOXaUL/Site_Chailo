@@ -53,6 +53,145 @@ body {
   top: 16.3%;
   border-top: 1px solid white;
 }
+.week-href a {
+  text-decoration: none;
+  color: white;
+}
+.week-match-block {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 1);
+  border: 5px solid white;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
+  width: 307px;
+  color: white;
+  top: 25%;
+  left: 60%;
+  height: 250px;
+}
+.week-match-block span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik-Regular";
+}
+.week-match-text {
+  display: block;
+  position: absolute;
+  width: 307px;
+  height: 15%;
+  top: 85%;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
+}
+.week-match-block img {
+  width: 307px;
+  height: 250px;
+}
+.best-href a {
+  color: white;
+  text-decoration: none;
+}
+.best-players-block {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 1);
+  border: 5px solid white;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
+  width: 307px;
+  color: white;
+  top: 55%;
+  left: 60%;
+  height: 250px;
+}
+.best-players-block span {
+  display: block;
+  position: absolute;
+  left: 55%;
+  top: 45%;
+  width: 200px;
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik-Regular";
+}
+.best-players-text {
+  display: block;
+  position: absolute;
+  width: 307px;
+  height: 15%;
+  top: 85%;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
+}
+.last-new-href a {
+  color: white;
+  text-decoration: underline;
+}
+.last-new-block {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 1);
+  border: 5px solid white;
+  filter: drop-shadow(0px 0px 2px white);
+  width: 307px;
+  color: white;
+  top: 85%;
+  left: 60%;
+  height: 250px;
+}
+.last-new-block span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik-Regular";
+}
+.last-new-text {
+  display: block;
+  position: absolute;
+  width: 307px;
+  height: 15%;
+  top: 85%;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
+}
+.last-matches-href a {
+  color: white;
+  text-decoration: underline;
+}
+.last-matches-block {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 1);
+  border: 5px solid white;
+  filter: drop-shadow(0px 0px 2px white);
+  width: 960px;
+  color: white;
+  top: 100%;
+  left: 20%;
+  height: 300px;
+}
+.last-matches-block span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik-Regular";
+}
+.last-matches-text  {
+  display: block;
+  position: absolute;
+  width: 960px;
+  height: 15%;
+  top: 85%;
+  background: linear-gradient(90deg, #0E6BAE, #55B2F5);
+}
 table {
   font-family: "Rubik-Regular";
   border-collapse: collapse;
@@ -81,10 +220,19 @@ tr:nth-child(even) {
   width: 45px;
 }
 .name-table-size {
-  width: 90px;
+  width: 92px;
 }
 .place-table-size {
   width: 56px;
+}
+.tur-table-size {
+  width: 30px;
+}
+.score-table-size {
+  width: 10px;
+}
+.champ-table-size {
+  width: 160px;
 }
 .june-matches-block {
   display: block;
@@ -94,105 +242,129 @@ tr:nth-child(even) {
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .may-matches-block {
   display: block;
   position: absolute;
-  top: 45%;
+  top: 43%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .april-matches-block {
   display: block;
   position: absolute;
-  top: 500%;
+  top: 76.3%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .march-matches-block {
   display: block;
   position: absolute;
-  top: 500%;
+  top: 109.5%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .february-matches-block {
   display: block;
   position: absolute;
-  top: 500%;
+  top: 144.5%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .january-matches-block {
   display: block;
   position: absolute;
-  top: 120%;
+  top: 187.1%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .december-matches-block {
   display: block;
   position: absolute;
-  top: 135%;
+  top: 209.1%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .november-matches-block {
   display: block;
   position: absolute;
-  top: 150%;
+  top: 231%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .october-matches-block {
   display: block;
   position: absolute;
-  top: 170%;
+  top: 264.2%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .september-matches-block {
   display: block;
   position: absolute;
-  top: 190%;
+  top: 303.2%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .august-matches-block {
   display: block;
   position: absolute;
-  top: 210%;
+  top: 338.3%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 .july-matches-block {
   display: block;
   position: absolute;
-  top: 230%;
+  top: 375.6%;
   left: 20%;
   max-width: 100%;
   background-color: white;
   padding: 20px;
+  box-shadow: 0px 0px 5px 1px white,
+              0px 0px 15px 1px black;
 }
 ul.ul-nav {
   display: flex;
@@ -225,7 +397,7 @@ li.li-nav a:hover {
   width: 60%;
   max-width: 100%;
   height: 12%;
-  top: 270%;
+  top: 425%;
   background: linear-gradient(45deg, #0E6BAE, #55B2F5);
 }
 #footer-links-1 {
@@ -263,7 +435,7 @@ li.li-nav a:hover {
   position: absolute;
   width: 60%;
   left: 20%;
-  top: 280%;
+  top: 434%;
   height: 3%;
   background-color: #213881;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel = "stylesheet" href = "style/css/about.css" type = "text/css">
-    <link rel = "stylesheet" href = "style/css/media-queries-about.css" type = "text/css">
+    <link rel = "stylesheet" href = "style/css/media-queries/media-queries-about.css" type = "text/css">
     <link rel = "shortcut icon" href = "style/assets/images/favicon.jpg" type = "image/jpg">
     <title>"Динамо" Київ</title>
   </head>

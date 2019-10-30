@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel = "stylesheet" href = "style/css/main.css" type = "text/css">
-    <link rel = "stylesheet" href = "style/css/media-queries-main.css" type = "text/css">
+    <link rel = "stylesheet" href = "style/css/main.css?version=1">
+    <link rel = "stylesheet" href = "style/css/media-queries/media-queries-main.css?version=4">
     <link rel = "shortcut icon" href = "style/assets/images/favicon.jpg" type = "image/jpg">
     <title>"Динамо" Київ</title>
   </head>

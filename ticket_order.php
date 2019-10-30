@@ -1,3 +1,18 @@
+<?php
+  $name = htmlspecialchars($_POST["input-name"]);
+  $email = htmlspecialchars($_POST["input-email"]);
+  $match = htmlspecialchars($_POST["input-select-match"]);
+  $ticketType = htmlspecialchars($_POST["input-ticket-type"]);
+
+  $my_email = "example@mail.com";
+  $subject = "Замовлення квитка";
+  $message = "Замовник: " . $name . "\nКвиток на матч: " . $match . "\nТип квитка: " . $ticketType . "\nEmail: " . $email;
+
+  if(isset($_POST["done"])) {
+    mail($my_email, $subject, $message);
+    header("Location:done-order.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -43,41 +58,59 @@
         <form action = "" method = "post">
           <label>Ваше ім'я:</label>
           <div id = "input-name">
-            <input type = "text" name = "input-name" placeholder = "Ім'я">
+            <input type = "text" name = "input-name" placeholder = "Ім'я" required>
           </div>
           <br><br>
           <label>Ваш E-mail:</label>
           <div id = "input-email">
-            <input type = "text" name = "input-email" placeholder = "E-mail">
+            <input type = "text" name = "input-email" placeholder = "E-mail" required>
           </div>
           <br><br>
           <label>Оберіть матч:</label>
           <div id = "input-match">
             <select name = "input-select-match">
-              <option value = "1">"Динамо К" VS "Карпати"</option>
-              <option value = "2">"Динамо К" VS "Шахтар"</option>
-              <option value = "3">"Динамо К" VS "Олімпік"</option>
-              <option value = "4">"Динамо К" VS "Чорноморець"</option>
+              <option value = "'Динамо К' VS 'Карпати'">"Динамо К" VS "Карпати"</option>
+              <option value = "'Динамо К' VS 'Карпати'">"Динамо К" VS "Шахтар"</option>
+              <option value = "'Динамо К' VS 'Карпати'">"Динамо К" VS "Олімпік"</option>
+              <option value = "'Динамо К' VS 'Карпати'">"Динамо К" VS "Чорноморець"</option>
             </select>
           </div>
           <br><br>
           <label>Тип квитка:</label>
           <br>
-          <input type = "radio" name = "input-ticket-type" value = "basic">
+          <input type = "radio" name = "input-ticket-type" value = "Звичайний">
           <label>Звичайний</label>
           <br>
-          <input type = "radio" name = "input-ticket-type" value = "vip">
+          <input type = "radio" name = "input-ticket-type" value = "VIP">
           <label>VIP</label>
           <br>
-          <input type = "radio" name = "input-ticket-type" value = "vip+">
+          <input type = "radio" name = "input-ticket-type" value = "VIP+">
           <label>VIP+</label>
           <br>
           <input type = "radio" name = "input-ticket-type" value = "deluxe">
           <label>Deluxe</label>
           <br><br>
+          <hr><br>
             <input id = "submit" type = "submit" name = "done" value = "Відправити">
         </form>
       </div>
     </main>
+    <footer>
+      <div class = "footer-block">
+        <section id = "footer-links-1">
+          <a href = "https://www.facebook.com/fcdynamoua/" target = "_blank">Facebook</a>
+          <br>
+          <a href = "https://www.instagram.com/fc_dynamo_kyiv/?hl=ru" target = "_blank">Instagram</a>
+        </section>
+        <section id = "footer-links-2">
+          <a href = "contacts.html" target = "_blank">Контакти</a>
+        </section>
+      </div>
+      <div class = "footer-last-block">
+        <section>
+          <span>© ФК "Динамо" Київ - 2019р.</span>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>

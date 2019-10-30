@@ -36,6 +36,9 @@
       </div>
     </header>
     <main>
+      <div class = "main-block">
+        <span>Ви успішно зробили замовлення. <br>Ми зв'яжемось з вами через ваш e-mail!</span>
+      </div>
     </main>
     <footer>
       <div class = "footer-block">

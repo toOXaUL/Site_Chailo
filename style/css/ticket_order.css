@@ -124,19 +124,19 @@ li.li-nav a:hover {
 	display: block;
 	position: absolute;
 	left: 37.7%;
-	top: 20%;
+	top: 18%;
 }
 #input-email {
 	display: block;
 	position: absolute;
 	left: 37.7%;
-	top: 30%;
+	top: 28%;
 }
 #input-match {
 	display: block;
 	position: absolute;
 	left: 37.8%;
-	top: 41%;
+	top: 38%;
 }
 #input-match select {
 	width: 181px;

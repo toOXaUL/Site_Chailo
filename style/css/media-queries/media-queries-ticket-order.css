@@ -1,0 +1,259 @@
+@media screen and (min-width: 1300px) {
+  .club-logo-block img {
+    bottom: 28%;
+    width: 8%;
+  }
+  .header-text {
+    top: 20%;
+    left: 16%;
+  }
+  .header-text span {
+    font-size: 20px;
+  }
+  li.li-nav a {
+    margin-left: 38px;
+    margin-right: 38px;
+  }
+  .form-order-block {
+    top: 55%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .header-block {
+    display: block;
+    position: absolute;
+    background: linear-gradient(90deg, #0E6BAE, #55B2F5);
+    width: 60%;
+    max-width: 100%;
+    height: 110px;
+    left: 20%;
+    top: 5%;
+    box-shadow: 0px 0px 10px 1px black inset;
+  }
+  .club-logo-block img{
+    display: block;
+    position: absolute;
+    width: 8.5%;
+    left: 5%;
+    bottom: 10%;
+    filter: drop-shadow(0px 0px 15px black);
+  }
+  .header-text {
+    display: block;
+    position: absolute;
+    left: 17%;
+    top: 25%;
+  }
+  .header-text span {
+    font-family: "Rubik-Bold";
+    text-shadow: 0px 0px 4px black;
+    font-size: 30px;
+    color: white;
+  }
+  #add-text {
+    font-family: "Rubik-Bold";
+    font-size: 15px;
+    color: white;
+  }
+  .nav-bar {
+    display: block;
+    background-color: #213881;
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    max-width: 100%;
+    top: 16.3%;
+    border-top: 1px solid white;
+  }
+  ul.ul-nav {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+  }
+  li.li-nav {
+    padding: 10px;
+    list-style: none;
+  }
+  li.li-nav a {
+    text-decoration: none;
+    font-family: "Rubik-Regular";
+    margin-left: 57px;
+    margin-right: 57px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0px 0px 1px white;
+    transition: .2s;
+  }
+  li.li-nav a:hover {
+    color: #C7C7C7;
+    text-shadow: 0px 0px 2px #C7C7C7;
+    transition: .2s;
+  }
+  .form-text {
+    display: block;
+    position: absolute;
+    background: linear-gradient(60deg, #0E6BAE, #55B2F5);
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    left: 0%;
+    top: 0%;
+  }
+  .form-text span {
+    display: block;
+    position: absolute;
+    font-family: "Rubik-Regular";
+    color: white;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 280px;
+  }
+  .form-order-block {
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 50px;
+    box-shadow: 0px 0px 8px 1px white;
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .form-order-block label {
+  	font-family: "Rubik-Regular";
+  	font-size: 18px;
+  }
+  .form-order-block input[type=text], input[type="submit"] {
+  	height: 21px;
+  	font-family: "Rubik-Regular";
+  	font-size: 15px;
+  }
+  #input-name {
+  	display: block;
+  	position: absolute;
+  	left: 37.7%;
+  	top: 18%;
+  }
+  #input-email {
+  	display: block;
+  	position: absolute;
+  	left: 37.7%;
+  	top: 28%;
+  }
+  #input-match {
+  	display: block;
+  	position: absolute;
+  	left: 37.8%;
+  	top: 38%;
+  }
+  #input-match select {
+  	width: 181px;
+  }
+  #submit {
+  	display: block;
+  	position: absolute;
+  	transform: translate(-50%, -50%);
+  	top: 90%;
+  	left: 50%;
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    transition: 0.5s;
+  }
+  #submit:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 5px 0px black;
+  }
+  .form-order-block select {
+  	height: 25px;
+  	font-family: "Rubik-Regular";
+  	font-size: 15px;
+  }
+  .footer-block {
+    display: block;
+    position: absolute;
+    left: 20%;
+    width: 60%;
+    max-width: 100%;
+    height: 12%;
+    top: 88%;
+    background: linear-gradient(45deg, #0E6BAE, #55B2F5);
+  }
+  #footer-links-1 {
+    display: block;
+    position: absolute;
+    left: 3%;
+    top: 15%;
+  }
+  #footer-links-1 a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Rubik-Regular";
+  }
+  #footer-links-1 a:hover {
+    text-decoration: underline;
+  }
+  #footer-links-2 {
+    display: block;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+  }
+  #footer-links-2 a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Rubik-Regular";
+  }
+  #footer-links-2 a:hover {
+    text-decoration: underline;
+  }
+  .footer-last-block {
+    display: block;
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 97%;
+    height: 3%;
+    background-color: #213881;
+  }
+  .footer-last-block span {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 1.5%;
+    font-size: 12px;
+    color: #1D5C7E;
+    font-family: "Rubik-Regular";
+  }
+  @font-face {
+    font-family: "Roboto";
+  	src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  	font-style: normal;
+  	font-weight: normal;
+  }
+  @font-face {
+    font-family: "Rubik-Regular";
+  	src: url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+  	font-style: normal;
+  	font-weight: normal;
+  }
+  @font-face {
+    font-family: "Rubik-Bold";
+  	src: url("../assets/fonts/Rubik-Bold.ttf") format("truetype");
+  	font-style: normal;
+  	font-weight: normal;
+  }
+  @font-face {
+    font-family: "Rubik Mono One";
+  	src: url("../assets/fonts/RubikMonoOne-Regular.ttf") format("truetype");
+  	font-style: normal;
+  	font-weight: normal;
+  }
+
+}

@@ -26,10 +26,10 @@
         <section>
           <nav>
             <ul class = "ul-nav">
-              <li class = "li-nav"><a href = "index.html">ГОЛОВНА</a></li>
-              <li class = "li-nav"><a href = "ticket_order.html">ЗАМОВОЛЕННЯ КВИТКІВ</a></li>
-              <li class = "li-nav"><a href = "match_history.html">ІСТОРІЯ МАТЧІВ</a></li>
-              <li class = "li-nav"><a href = "about.html">ПРО КЛУБ</a></li>
+              <li class = "li-nav"><a href = "index.php">ГОЛОВНА</a></li>
+              <li class = "li-nav"><a href = "ticket_order.php">ЗАМОВОЛЕННЯ КВИТКІВ</a></li>
+              <li class = "li-nav"><a href = "match_history.php">ІСТОРІЯ МАТЧІВ</a></li>
+              <li class = "li-nav"><a href = "about.php">ПРО КЛУБ</a></li>
             </ul>
           </nav>
         </section>

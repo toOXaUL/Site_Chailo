@@ -77,6 +77,90 @@ li.li-nav a:hover {
   text-shadow: 0px 0px 2px #C7C7C7;
   transition: .2s;
 }
+.form-text {
+  display: block;
+  position: absolute;
+  background: linear-gradient(60deg, #0E6BAE, #55B2F5);
+  width: 100%;
+  height: 50px;
+  padding: 0px;
+  left: 0%;
+  top: 0%;
+}
+.form-text span {
+  display: block;
+  position: absolute;
+  font-family: "Rubik-Regular";
+  color: white;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 280px;
+}
+.form-order-block {
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 50px;
+  box-shadow: 0px 0px 15px 5px black;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.form-order-block label {
+	font-family: "Rubik-Regular";
+	font-size: 18px;
+}
+.form-order-block input[type=text], input[type="submit"] {
+	height: 21px;
+	font-family: "Rubik-Regular";
+	font-size: 15px;
+}
+#input-name {
+	display: block;
+	position: absolute;
+	left: 37.7%;
+	top: 20%;
+}
+#input-email {
+	display: block;
+	position: absolute;
+	left: 37.7%;
+	top: 30%;
+}
+#input-match {
+	display: block;
+	position: absolute;
+	left: 37.8%;
+	top: 41%;
+}
+#input-match select {
+	width: 181px;
+}
+#submit {
+	display: block;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 90%;
+	left: 50%;
+  height: 30px;
+  width: 120px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+#submit:hover {
+  transition: 0.5s;
+  box-shadow: 0px 1px 5px 0px black;
+}
+.form-order-block select {
+	height: 25px;
+	font-family: "Rubik-Regular";
+	font-size: 15px;
+}
 @font-face {
   font-family: "Roboto";
 	src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");

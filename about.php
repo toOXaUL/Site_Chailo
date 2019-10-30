@@ -54,14 +54,12 @@
     <footer>
       <div class = "footer-block">
         <section id = "footer-links-1">
-          <a href = "https://facebook.com/" target = "_blank">Facebook</a>
+          <a href = "https://www.facebook.com/fcdynamoua/" target = "_blank">Facebook</a>
           <br>
-          <a href = "https://instagram.com/" target = "_blank">Instagram</a>
+          <a href = "https://www.instagram.com/fc_dynamo_kyiv/?hl=ru" target = "_blank">Instagram</a>
         </section>
         <section id = "footer-links-2">
           <a href = "contacts.html" target = "_blank">Контакти</a>
-          <br>
-          <a href = "achievements.html" target = "_blank">Досягнення</a>
         </section>
       </div>
       <div class = "footer-last-block">

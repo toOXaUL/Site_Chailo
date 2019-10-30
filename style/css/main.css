@@ -80,41 +80,41 @@ li.li-nav a:hover {
 .last-match-block {
   display: block;
   position: absolute;
-  background-color: white;
+  background: linear-gradient(45deg, #213881, #3458CD, #162556);
   top: 28%;
   left: 20%;
   width: 400px;
   height: 500px;
   box-shadow: 0px 0px 8px 1px white;
 }
-.last-match-team-name-1 {
+.match-team-name-1 {
   display: block;
   position: absolute;
   font-family: "Rubik-Regular";
-  color: black;
+  color: white;
   top: 59%;
   left: 79.5%;
   transform: translate(-50%, -50%);
   font-size: 20px;
 }
-.last-match-team-name-2 {
+.match-team-name-2 {
   display: block;
   position: absolute;
   font-family: "Rubik-Regular";
-  color: black;
+  color: white;
   top: 59%;
   left: 20.5%;
   transform: translate(-50%, -50%);
   font-size: 20px;
 }
-.header-text-last-match {
+.header-text-match {
   display: block;
   position: relative;
   width: 100%;
   background: linear-gradient(60deg, #0E6BAE, #55B2F5);
   height: 60px;
 }
-.header-text-last-match span {
+.header-text-match span {
   display: block;
   position: absolute;
   font-family: "Rubik-Regular";
@@ -124,42 +124,42 @@ li.li-nav a:hover {
   transform: translate(-50%, -50%);
   font-size: 20px;
 }
-.last-match-logo-1 {
+.match-logo-1 {
   display: block;
   position: absolute;
   top: 25%;
   width: 150px;
   left: 68%;
 }
-.last-match-logo-1 img {
+.match-logo-1 img {
   width: 62%;
 }
-.last-match-logo-2 {
+.match-logo-2 {
   display: block;
   position: absolute;
-  top: 20%;
+  top: 23.5%;
   width: 150px;
   left: 8%;
 }
-.last-match-logo-2 img {
+.match-logo-2 img {
   width: 65%;
 }
-.last-match-score-text span {
+.match-score-text span {
   display: block;
   position: absolute;
   font-family: "Rubik-Bold";
-  color: black;
+  color: white;
   top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
 }
-.last-match-text span {
+.match-text span {
   display: block;
   position: absolute;
   font-family: "Rubik-Regular";
   text-align: center;
-  color: black;
+  color: white;
   top: 85%;
   left: 50%;
   width: 250px;
@@ -169,29 +169,12 @@ li.li-nav a:hover {
 .next-match-block {
   display: block;
   position: absolute;
-  background-color: white;
+  background: linear-gradient(135deg, #213881, #3458CD, #162556);
   top: 28%;
   right: 20%;
   width: 400px;
   height: 500px;
   box-shadow: 0px 0px 8px 1px white;
-}
-.header-text-next-match {
-  display: block;
-  position: relative;
-  width: 100%;
-  background: linear-gradient(60deg, #0E6BAE, #55B2F5);
-  height: 60px;
-}
-.header-text-next-match span {
-  display: block;
-  position: absolute;
-  font-family: "Rubik-Regular";
-  color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
 }
 .footer-block {
   display: block;

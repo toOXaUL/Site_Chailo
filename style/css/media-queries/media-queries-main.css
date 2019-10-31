@@ -1,6 +1,6 @@
 @media screen and (min-width: 1300px) {
   .club-logo-block img {
-    bottom: 28%;
+    bottom: 33%;
     width: 8%;
   }
   .header-text {
@@ -11,14 +11,16 @@
     font-size: 20px;
   }
   li.li-nav a {
-    margin-left: 38px;
-    margin-right: 38px;
+    margin-left: 33px;
+    margin-right: 33px;
   }
   .last-match-block {
+    top: 26%;
     width: 300px;
     height: 400px;
   }
   .next-match-block {
+    top: 26%;
     width: 300px;
     height: 400px;
   }

@@ -1,6 +1,6 @@
 @media screen and (min-width: 1300px) {
   .club-logo-block img {
-    bottom: 28%;
+    bottom: 33%;
     width: 8%;
   }
   .header-text {
@@ -11,17 +11,23 @@
     font-size: 20px;
   }
   li.li-nav a {
-    margin-left: 38px;
-    margin-right: 38px;
+    margin-left: 32px;
+    margin-right: 32px;
   }
   .about-block {
-    height: 450px;
+    height: 390px;
   }
   .about-block span {
     font-size: 20px;
   }
   .about-block article {
-    font-size: 17px;
+    font-size: 15px;
+  }
+  .footer-block {
+    top: 88%;
+  }
+  .footer-last-block {
+    top: 97%;
   }
 }
 @media screen and (min-width: 1600px) {

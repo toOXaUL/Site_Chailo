@@ -1,6 +1,6 @@
 @media screen and (min-width: 1300px) {
   .club-logo-block img {
-    bottom: 28%;
+    bottom: 33%;
     width: 8%;
   }
   .header-text {
@@ -11,47 +11,47 @@
     font-size: 20px;
   }
   li.li-nav a {
-    margin-left: 36px;
-    margin-right: 36px;
+    margin-left: 32px;
+    margin-right: 32px;
   }
   .may-matches-block {
     top: 50%;
   }
   .april-matches-block {
-    top: 94%;
+    top: 96%;
   }
   .march-matches-block {
-    top: 138%;
+    top: 142%;
   }
   .february-matches-block {
-    top: 184.5%;
+    top: 190.5%;
   }
   .january-matches-block {
-    top: 240.6%;
+    top: 250%;
   }
   .december-matches-block {
-    top: 270.5%;
+    top: 280.5%;
   }
   .november-matches-block {
-    top: 300.3%;
+    top: 310.5%;
   }
   .october-matches-block {
-    top: 344.5%;
+    top: 356.5%;
   }
   .september-matches-block {
-    top: 396%;
+    top: 410.5%;
   }
   .august-matches-block {
-    top: 442.5%;
+    top: 459%;
   }
   .july-matches-block {
-    top: 492%;
+    top: 510.5%;
   }
   .footer-block {
-    top: 555%;
+    top: 580%;
   }
   .footer-last-block {
-    top: 564%;
+    top: 589%;
   }
 }
 @media screen and (min-width: 1600px) {
